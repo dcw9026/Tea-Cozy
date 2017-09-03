@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+  margin: 0;
+  background-color: #151F2C;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #151F2C;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E3E5E6;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+  opacity: 0.9;
+}
+
+header nav ul li {
+  font-size: 22px;
+  display: inline-block;
+  padding: 0 10px 0 20px;
+}
+
+header nav ul li a {
+  color: #E3E5E6;
+  text-decoration: none;
+}
