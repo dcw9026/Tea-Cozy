@@ -8,6 +8,16 @@ body {
   opacity: 0.9;
 }
 
+/* Global */
+
+h2 {
+  font-size: 33px;
+}
+
+span {
+  font-weight: bold;
+}
+
 /* Header Styles */
 
 header {
@@ -51,11 +61,12 @@ div#main-content {
   display: flex;
   justify-content: center;
   text-align: center;
+
 }
 
 /* Showcase */
 
-div#showcase {
+div#mission {
   background: url("./images/showcase-background.jpg") no-repeat;
   width: 1200px;
   height: 700px;
@@ -67,14 +78,31 @@ div#showcase {
 
 }
 
-div#showcase h2 {
-  font-size: 33px;
-  padding: 10px;
-}
-
-div#showcase h2, div#showcase h4 {
+div#mission h2, div#mission h4 {
   background-color: #151F2C;
   width: 100%;
   margin: 0;
-  padding-bottom: 15px;
+  padding: 15px 0;
+  flex-grow: 3;
+}
+
+/* Featured Tea Gallery */
+
+div#featured-tea {
+  width: 1000px;
+  margin: 60px auto;
+}
+
+div.box {
+  display: inline-block;
+  margin: 10px;
+}
+
+div.box span {
+  margin: 15px 0;
+  display: block;
+}
+div.box img {
+  width: 300px;
+  height: 200px;
 }
